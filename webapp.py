@@ -13,7 +13,7 @@ def render_response():
         response = "Nice"
     else:
         response = "nice"
-    return render_template('response.html')
+    return render_template('response.html', responseFromServer=response)
     
     
 if __name__=="__main__":
